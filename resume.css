@@ -1,0 +1,34 @@
+/* Main Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #2a63cc; /* Navy blue background */
+    color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #f4f4f9;
+}
+
+header h1, header h2, header h3, header h4 {
+    color: #ffcc00; /* Gold color for headings */
+    font-family: 'Roboto', sans-serif; /* Use Google Font */
+}
+
+/* List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+    color: #f4f4f9;
+}
+
