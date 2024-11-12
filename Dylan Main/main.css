@@ -76,3 +76,38 @@ nav ul li a:hover {
     color: #f4f4f9;
     text-decoration: underline;
 }
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Image */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Hover Effects */
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #004297;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
