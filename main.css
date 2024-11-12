@@ -13,10 +13,6 @@ body {
     margin: 0;
     padding: 20px;
 }
-/* Background Color */
-body {
-    background-color: rgb(25, 153, 204);
-    }
 
 /* Header */
 header {
@@ -115,3 +111,19 @@ footer {
     width: 100%;
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9em;
+    }
+    header h1 {
+        font-size: 1.8em;
+    }
+    nav ul {
+        flex-direction: column;
+        padding: 10px;
+    }
+    section {
+        margin: 5px auto;
+        padding: 15px;
+    }
+}
