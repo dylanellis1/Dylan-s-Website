@@ -116,13 +116,6 @@ footer {
     width: 100%;
 }
 
-/* Image Style */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
 @media (max-width: 768px) {
     body {
         font-size: 0.9em;
