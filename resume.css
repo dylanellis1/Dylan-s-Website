@@ -1,4 +1,4 @@
-/* Main Body */
+/* Main Body Style */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -8,7 +8,7 @@ body {
     padding: 0;
 }
 
-/* Header */
+/* Header style */
 header {
     padding: 20px;
     max-width: 800px;
@@ -21,7 +21,7 @@ header h1, header h2, header h3, header h4 {
     font-family: 'Roboto', sans-serif; /* Use Google Font */
 }
 
-/* List */
+/* List style */
 ul {
     list-style-type: none;
     padding: 0;
@@ -32,3 +32,42 @@ ul li {
     color: #f4f4f9;
 }
 
+/* Section style */
+section {
+    background-color: #2a63cc; /* Darker navy for contrast */
+    border-left: 4px solid #ffcc00; /* Gold accent on left */
+    padding: 10px;
+    margin: 10px 0;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+/* Link style */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f4f4f9;
+    text-decoration: underline;
+}
+
+/* Footer style */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2a63cc; /* Darker navy for footer */
+    color: #f4f4f9;
+}
+
+
+@media (max-width: 768px) {
+    header, section, footer {
+        max-width: 95%;
+    }
+    body {
+        font-size: 0.9em;
+    }
+}
