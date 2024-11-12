@@ -17,8 +17,8 @@ header {
 }
 
 header h1, header h2, header h3, header h4 {
-    color: #ffcc00; /* Gold color for headings */
-    font-family: 'Roboto', sans-serif; /* Use Google Font */
+    color: #ffcc00; 
+    font-family: 'Roboto', sans-serif; 
 }
 
 /* List style */
@@ -34,8 +34,8 @@ ul li {
 
 /* Section style */
 section {
-    background-color: #2a63cc; /* Darker navy for contrast */
-    border-left: 4px solid #ffcc00; /* Gold accent on left */
+    background-color: #2a63cc; 
+    border-left: 4px solid #ffcc00; 
     padding: 10px;
     margin: 10px 0;
     max-width: 800px;
@@ -58,7 +58,7 @@ a:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #2a63cc; /* Darker navy for footer */
+    background-color: #2a63cc; 
     color: #f4f4f9;
 }
 
