@@ -22,3 +22,8 @@ if (hours < 12) {
 greeting.innerText = greetingText;
 greeting.classList.add(greetingClass);
 document.querySelector("header").appendChild(greeting);
+// Alert button and hover
+const alertButton = document.createElement("button");
+alertButton.id = "btn-alert";
+alertButton.innerText = "Click Here";
+
