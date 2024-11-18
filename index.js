@@ -1,6 +1,11 @@
 // Footer year
 const currentYear = new Date().getFullYear();
-document.querySelector("footer small").innerText = `© ${currentYear} Dylan Ellis`;
+const fullDate = new Date().toLocaleString();
+const footer = document.querySelector("footer small");
+footer.innerText = `© ${currentYear} Dylan Ellis`;
+
+// Today's date
+console.log("Today's date:", new Date().toLocaleString());
 
 // Greeting based on time of day
 const greeting = document.createElement("h1");
@@ -55,6 +60,5 @@ alertButton.addEventListener("click", () => {
   
   document.body.appendChild(numberList);
   
-  // Today's date
-  console.log("Today's date:", new Date().toLocaleString());
+  
 
