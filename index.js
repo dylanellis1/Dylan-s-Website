@@ -16,12 +16,15 @@ let greetingClass = "";
 if (hours < 12) {
   greetingText = "Good Morning!";
   greetingClass = "morning";
+  style="color: red"
 } else if (hours < 17) {
   greetingText = "Good Afternoon!";
   greetingClass = "afternoon";
+  style="color: blue"
 } else {
   greetingText = "Good Evening!";
   greetingClass = "evening";
+  style="color: grey"
 }
 
 greeting.innerText = greetingText;
@@ -60,5 +63,3 @@ alertButton.addEventListener("click", () => {
   
   document.body.appendChild(numberList);
   
-  
-
