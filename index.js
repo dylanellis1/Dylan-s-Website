@@ -27,3 +27,18 @@ const alertButton = document.createElement("button");
 alertButton.id = "btn-alert";
 alertButton.innerText = "Click Here";
 
+// Button alert
+alertButton.addEventListener("click", () => {
+    alert("Welcome to Dylan's website");
+  });
+  
+  // Hover functionality
+  alertButton.onmouseover = () => {
+    alertButton.innerText = "Button";
+  };
+  alertButton.onmouseout = () => {
+    alertButton.innerText = "Click Here";
+  };
+  
+  document.body.appendChild(alertButton);
+  
