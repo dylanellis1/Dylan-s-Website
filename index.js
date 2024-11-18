@@ -42,3 +42,19 @@ alertButton.addEventListener("click", () => {
   
   document.body.appendChild(alertButton);
   
+  // Ordered list of even/odd numbers
+  const numberList = document.createElement("ol");
+  numberList.id = "Numbers";
+  
+  for (let i = 1; i <= 12; i++) {
+    const listItem = document.createElement("li");
+    listItem.textContent = i % 2 === 0 ? `Even ${i}` : `Odd ${i}`;
+    numberList.appendChild(listItem);
+  }
+  
+  document.body.appendChild(numberList);
+  
+  // Today's date
+  console.log("Today's date:", new Date().toLocaleString());
+
+  
